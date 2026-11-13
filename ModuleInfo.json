@@ -1,0 +1,18 @@
+{
+  "Name": "LargeChain",
+  "Author": "Super Hackio",
+  "Description": "The large chain from buoy base, ported to SMG2",
+  "SupportedGames": [ "SB4" ],
+
+  "ModuleData": [
+    {
+      "NameObjFactory": [
+        {
+          "Name": "LargeChain",
+          "Function": "createExtActor<LargeChain>",
+          "Include": "Game/MapObj/LargeChain.h"
+        }
+      ]
+    }
+  ]
+}
